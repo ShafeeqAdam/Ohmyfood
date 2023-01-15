@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2e24173a39.js" crossorigin="anonymous"></script>
+    <title>OhMyFood</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../assets/css/jay.css">
+    
+</head>
+
+<body>
+  
+    <header> 
+        <div class="displayheader">
+            <a href="Index.html" class="fa-solid fa-arrow-left"></a>
+            <img src="../assets/images/logo/ohmyfood.png" alt="logo header">
+        </div>
+    </header>
+
+    <main>
+        <img class="restaurants__cover" src="../assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" 
+        alt="Photo de Jay" style="width: 100%;">  
+    
+        <div class="Container">
+            
+            <!--En Tête-->
+            <div class="restaurants__header">
+                <h1>La palette du goût</h1>
+                <input type="checkbox" id="heart_btn">
+                    <label for="heart_btn">
+                   <i class="fa-regular fa-heart"></i>
+                    <span class="fa-solid fa-heart"></span>
+                    </label>
+            </div>            
+            <!--Starter-->
+            <div class="starter__header">Entrées</div>
+            <div class="line"></div>
+            
+            <!--Button Menu-->
+            <div class="starter__display">
+            <!--Radio-->
+                <input type="radio" id="fricassée">
+                <label for="fricassée" class="starter__btn starter">
+            <div class="starter__column">  
+                    <div class="starter__title">Fricassée d'escargots</div>      
+                    <div class="starter__description">Au piment d'Espelette</div>
+            </div> <!--cloture column-->   
+                    <div class="starter__price">25€</div>  
+            <div class="check">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check-circle" class="svg-inline--fa fa-check-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="#ffffff" d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path>
+                    </svg>
+            </div>  <!--Cloture check-->
+            </label>  <!--cloture radio-->
+                
+            </div> <!--cloture display-->
+
+            <!--Button Menu-->
+            <div class="starter__display">
+            <!--Radio-->
+                <input type="radio" id="foie-gras">
+                <label for="foie-gras" class="starter__btn starter">
+            <div class="starter__column">  
+                    <div class="starter__title">Foie gras de canard mi-cuit</div>      
+                    <div class="starter__description">Et ses copeaux de truffe noire</div>
+            </div> <!--cloture column-->   
+                    <div class="starter__price">35€</div> 
+            <div class="check">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check-circle" class="svg-inline--fa fa-check-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="#ffffff" d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path>
+                    </svg>
+            </div>  <!--Cloture check-->
+            </label>  <!--cloture radio-->
+                
+            </div> <!--cloture display-->
+
+            <!--Button Menu-->
+            <div class="starter__display">
+            <!--Radio-->
+                <input type="radio" id="oeuf">
+                <label for="oeuf" class="starter__btn starter">
+            <div class="starter__column">  
+                    <div class="starter__title">Oeuf au plat</div>      
+                    <div class="starter__description">Assaisonnée à la truffe sur lit de caviar</div>
+            </div> <!--cloture column-->   
+                    <div class="starter__price">20€</div>  
+            <div class="check">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check-circle" class="svg-inline--fa fa-check-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="#ffffff" d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path>
+                    </svg>
+            </div> <!--Cloture check-->
+            </label>  <!--cloture radio-->              
+                
+            </div> <!--cloture display-->
+        
+            <!--Disheeeees-->
+            <div class="starter__header">Plats</div>
+            <div class="line"></div>
+            
+            <!--Button Menu-->
+            <div class="starter__display">
+            <!--Radio-->
+                <input type="radio" id="filet">
+                <label for="filet" class="starter__btn dishes">
+            <div class="starter__column">  
+                    <div class="starter__title">Filet de boeuf aux herbes</div>      
+                    <div class="starter__description">Accompagné de sa ribambelle de légumes</div>
+            </div> <!--cloture column-->   
+                    <div class="starter__price">40€</div>    
+            <div class="check">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check-circle" class="svg-inline--fa fa-check-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="#ffffff" d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path>
+                    </svg>
+            </div>   <!--Cloture check-->
+            </label> <!--cloture radio--> 
+                
+            </div> <!--cloture display-->
+
+            <!--Button Menu-->
+            <div class="starter__display">
+            <!--Radio-->
+                <input type="radio" id="parmentier">
+                <label for="parmentier" class="starter__btn dishes">
+            <div class="starter__column">  
+                    <div class="starter__title">Parmentier de queue de boeuf</div>      
+                    <div class="starter__description">À la truffe noire sur sa purée de panais</div>
+            </div> <!--cloture column-->   
+                    <div class="starter__price">35€</div>     
+            <div class="check">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check-circle" class="svg-inline--fa fa-check-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="#ffffff" d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path>
+                    </svg>
+            </div> <!--Cloture check-->
+            </label>  <!--cloture radio-->
+                
+            </div> <!--cloture display-->
+            
+            <!--Button Menu-->
+            <div class="starter__display">
+            <!--Radio-->
+                <input type="radio" id="turbot">
+                <label for="turbot" class="starter__btn dishes">
+            <div class="starter__column">  
+                    <div class="starter__title">Filet de turbot</div>      
+                    <div class="starter__description">Aux agrumes</div>
+            </div> <!--cloture column-->   
+                    <div class="starter__price">44€</div>   
+            <div class="check">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check-circle" class="svg-inline--fa fa-check-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="#ffffff" d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path>
+                    </svg>
+            </div> <!--Cloture check-->
+            </label>   <!--cloture radio--> 
+               
+            </div> <!--cloture display-->
+        
+            <!--Dezeeeert-->
+            <div class="starter__header">Desserts</div>
+            <div class="line"></div>
+            
+            <!--Button Menu-->
+            <div class="starter__display">
+            <!--Radio-->
+                <input type="radio" id="paris-brest">
+                <label for="paris-brest" class="starter__btn desserts">
+            <div class="starter__column">  
+                    <div class="starter__title">Paris-Brest</div>      
+                    <div class="starter__description">Revisité</div>
+            </div> <!--cloture column-->   
+                    <div class="starter__price">18€</div>    
+            <div class="check">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check-circle" class="svg-inline--fa fa-check-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="#ffffff" d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path>
+                    </svg>
+            </div>    <!--Cloture check-->
+            </label> <!--cloture radio--> 
+            
+            </div> <!--cloture display-->
+            
+            <!--Button Menu-->
+            <div class="starter__display">
+            <!--Radio-->   
+                <input type="radio" id="macaron">
+                <label for="macaron" class="starter__btn desserts">
+            <div class="starter__column">  
+                    <div class="starter__title">Macaron au chocolat d'exception</div>      
+                    <div class="starter__description">Et glace à la vanille de Madagascar</div>
+            </div> <!--cloture column-->   
+                    <div class="starter__price">22€</div>     
+            <div class="check">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check-circle" class="svg-inline--fa fa-check-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path fill="#ffffff" d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path>
+                </svg>
+            </div>   <!--Cloture check-->
+            </label> <!--cloture radio--> 
+            
+            </div> <!--cloture display-->
+            
+            <!--Button Menu-->
+            <div class="starter__display">
+            <!--Radio-->    
+                <input type="radio" id="mousse">
+                <label for="mousse" class="starter__btn desserts">
+            <div class="starter__column">  
+                    <div class="starter__title">Mousse au chocolat</div>      
+                    <div class="starter__description">Au piment d'Espelette et à la truffe noire</div>
+            </div> <!--cloture column-->   
+                    <div class="starter__price">23€</div>   
+            <div class="check">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check-circle" class="svg-inline--fa fa-check-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="#ffffff" d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path>
+                    </svg>
+            </div> <!--Cloture check-->
+            </label> <!--cloture radio-->    
+            
+            </div> <!--cloture display-->
+        
+            <!--order-btn-->
+            <a href="#" class="order__btn">
+                <div class="order__description">Commander</div>
+            </a>
+        </div> <!--cloture Container-->
+</main>
+<footer>
+    <div class="footer">
+        <div class="footer__display">
+           
+                <h2>Ohmyfood</h2>
+            
+                <div class="footerrow__description">
+                <i class="fa-solid fa-utensils"></i>
+                <p>Proposer un restaurant</p>
+                </div>
+
+                <div class="footerrow__description">
+                <i class="fa-solid fa-handshake-angle"></i>
+                <p>Devenir partenaire</p>
+                </div>
+
+                <div class="footercolumn__description">    
+                <p>Mentions légales</p>
+
+                <a href="mailto:adresse@serveur.com">Contact</a>
+                </div>
+
+        </div>
+    </div>
+</footer>
+</body>
+</html>
