@@ -196,20 +196,20 @@
         margin-top: 1%;
         margin-left: 8%;
     }
-    .fa-mobile, .fa-list-ul {
+    .fa-mobile-screen-button, .fa-list-ul {
         display: flex;
         margin-top: 1%;
         margin-left: 8%;
     }
-    .fa-bowl-food {
+    .fa-store {
         display: flex;
         margin-top: 1%;
         margin-left: 8%;
     }
-    .fa-bowl-food:active {
+    .fa-store:active {
         color: #9356DC;
     }
-    .fa-mobile:active {
+    .fa-mobile-screen-button:active {
         color: #9356DC;
     }
     .fa-list-ul:active {
@@ -598,7 +598,7 @@
         margin-top: 1%;
         margin-left: 8%;
     }
-    .fa-mobile, .fa-list-ul {
+    .fa-mobile-screen-button, .fa-list-ul {
         display: flex;
         margin-top: 1%;
         /*margin-left: 8%;*/
@@ -607,16 +607,16 @@
         display: flex;
         margin-left: -2%;
     }
-    .fa-bowl-food {
+    .fa-store {
         display: flex;
         margin-top: 1%;
         margin-left: -1%;
         /*margin-left: 8%;*/
     }
-    .fa-bowl-food:active {
+    .fa-store:active {
         color: #9356DC;
     }
-    .fa-mobile:active {
+    .fa-mobile-screen-button:active {
         color: #9356DC;
     }
     .fa-list-ul:active {
@@ -1016,20 +1016,20 @@ h2 {
     margin-top: 1%;
     margin-left: 8%;
 }
-.fa-mobile, .fa-list-ul {
+.fa-mobile-screen-button, .fa-list-ul {
     display: flex;
     margin-top: 1%;
     margin-left: 8%;
 }
-.fa-bowl-food{
+.fa-store{
     display: flex;
     margin-top: 1%;
     margin-left: 8%;
 }
-.fa-bowl-food:hover {
+.fa-store:hover {
     color: #9356DC;
 }
-.fa-mobile:hover {
+.fa-mobile-screen-button:hover {
     color: #9356DC;
 } 
 .fa-list-ul:hover {
